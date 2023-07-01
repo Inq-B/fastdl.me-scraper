@@ -16,7 +16,6 @@ while True:
             for i in range(0,len(maplines)):
                 wget.download("http://main.fastdl.me/maps/"+maplines[i]+".bsp.bz2",out=path)
                 print("\n")
-                break
                 i+=1
             break
         else:
